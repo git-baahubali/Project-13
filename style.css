@@ -1,0 +1,95 @@
+:root {
+    --blue-color: #1BBCEF    ;
+    
+  }
+
+  * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.violet-div{
+    background-color: #7030CC;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px 40px 100px;
+}
+.apple-logo{
+    height: 50px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+    text-underline-offset: 10px;
+    transition: 0.2s ease-in;
+    margin: 0px 10px;
+}
+.link:hover{
+    color: #1BBCEF;
+    text-decoration: underline;
+    text-decoration-color: #ef3b1b;
+    transition: 0.2s ease-in;
+
+}
+
+.free-trial{
+    background-color: var(--blue-color);
+    padding:10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 10px 40px 100px;
+    
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.description > h1{
+    font-size: 4rem;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+.feature-img{
+    width: 10px;
+    padding: 10px;
+}
+
+.feature{
+    display: flex;
+    justify-content:  flex-start;
+    align-items:center;
+}
+ .features{
+    padding: 10px;
+ }
+
+
+.section-3 , .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
