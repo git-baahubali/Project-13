@@ -55,7 +55,7 @@ nav{
 .hero-1{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px 10px 40px 100px;
     
 }
